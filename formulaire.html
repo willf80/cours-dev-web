@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulaire</title>
+  </head>
+  <body>
+    <form action="traitement.php" method="get">
+      <div>
+        <label for="nom">Votre nom :</label>
+        <input type="text" name="nom" id="nom" placeholder="Ex: Mamadou" />
+      </div>
+
+      <div>
+        <input type="checkbox" name="politique" id="politique" />
+        <label for="politique">Accepter les politiques de confidentialités</label>
+      </div>
+
+      <div>
+        <label>Joindre des fichiers</label>
+        <input type="file" multiple />
+      </div>
+
+      <div>
+        <p>Enregistrer mes informations</p>
+        <label><input type="radio" name="info" /> Oui</label>
+        <label><input type="radio" name="info"  /> Non</label>
+      </div>
+
+      <div>
+        <p>Pays</p>
+        <select name="pays">
+            <option value="CIV">Côte d'Ivoire</option>
+            <option value="SEN">Senegal</option>
+            <option value="MAL">Mali</option>
+        </select>
+      </div>
+
+      <br/>
+      <button type="submit">Valider l'inscription</button>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
