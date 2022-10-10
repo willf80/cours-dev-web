@@ -1,0 +1,28 @@
+body {
+    /* background-color: grey; */
+}
+
+h1 {
+
+}
+
+a {
+
+}
+
+#conteneur {
+    border: 2px solid;
+}
+
+/* .carte {
+    border: 1px dashed red;
+    padding: 8px;
+    margin: 16px;
+} */
+
+#conteneur > div {
+    border: 1px dashed red;
+    padding: 8px;
+    margin: 16px;
+}
+
